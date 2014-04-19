@@ -22,16 +22,19 @@ A revised mockup of the rules in a more explicit format:
 
 var rounds = {
     "rock" : {
+        "rock" : "TIE",
         "scissors" : "WIN",
         "paper" : "LOSE"
     }
     ,
     "scissors" : {
+        "scissors" : "TIE"
         "paper" : "WIN",
         "rock" : "LOSE"
     }
     ,
     "paper" : {
+        "paper" : "TIE"
         "rock" : "WIN",
         "scissors" : "LOSE"
     }
