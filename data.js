@@ -22,26 +22,17 @@ A revised mockup of the rules in a more explicit format:
 
 var rounds = {
     "rock" : {
-        "scissors" : "WIN"
+        "scissors" : "WIN",
+        "paper" : "LOSE"
     }
     ,
     "scissors" : {
+        "paper" : "WIN",
         "rock" : "LOSE"
     }
     ,
-    "scissors" : {
-        "paper" : "WIN"
-    }
-    ,
     "paper" : {
+        "rock" : "WIN",
         "scissors" : "LOSE"
-    }
-    ,
-    "paper" : {
-        "rock" : "WIN"
-    }
-    ,
-    "rock" : {
-        "paper" : "LOSE"
     }
 }
