@@ -19,3 +19,7 @@ A revised mockup of the rules in a more explicit format:
     "rock" -> "paper"       : "LOSE"
 
 */
+
+var rounds = {
+    "rock" : "scissors"
+}
