@@ -24,4 +24,24 @@ var rounds = {
     "rock" : {
         "scissors" : "WIN"
     }
+    ,
+    "scissors" : {
+        "rock" : "LOSE"
+    }
+    ,
+    "scissors" : {
+        "paper" : "WIN"
+    }
+    ,
+    "paper" : {
+        "scissors" : "LOSE"
+    }
+    ,
+    "paper" : {
+        "rock" : "WIN"
+    }
+    ,
+    "rock" : {
+        "paper" : "LOSE"
+    }
 }
