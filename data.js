@@ -36,3 +36,12 @@ var rounds = {
         "scissors" : "LOSE"
     }
 }
+
+console.log( rounds["rock"]["scissors"] );
+// "WIN"
+
+console.log( rounds["scissors"]["rock"] );
+// "LOSE"
+
+console.log( rounds["paper"]["scissors"] );
+// "LOSE"
