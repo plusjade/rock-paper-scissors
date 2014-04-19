@@ -21,5 +21,7 @@ A revised mockup of the rules in a more explicit format:
 */
 
 var rounds = {
-    "rock" : "scissors"
+    "rock" : {
+        "scissors" : "WIN"
+    }
 }
